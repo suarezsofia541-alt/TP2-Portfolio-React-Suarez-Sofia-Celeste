@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -8,13 +10,20 @@ import './App.css'
 function App() {
 
   return (
-    <div>
-      <Home/>
-      <About/>
-      <Contact/>
-      <Projects/>
-      <Skills/>
-    </div>
+     <BrowserRouter>
+      <div className="layout">
+        <Sidebar />
+        <main className="contenido">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   )
 }
 
