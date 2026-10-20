@@ -21,7 +21,7 @@ const Skills = () => {
             <h2>Habilidades</h2>
             <div>
                 {habilidades.map((habilidad) => (
-                    <div key={habilidad.id} className="skillSpace">
+                    <div key={habilidad.id}>
                         <SkillCard nombre={habilidad.nombre} img={habilidad.img}/>
                     </div>
                 ))}  
