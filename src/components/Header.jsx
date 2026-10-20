@@ -2,7 +2,7 @@ const Header = () => {
 
     return(
         <div>
-
+            <p>header del sidebar</p>
         </div>
     )
 }
