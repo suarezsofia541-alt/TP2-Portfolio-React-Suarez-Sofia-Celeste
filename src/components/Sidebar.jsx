@@ -7,10 +7,11 @@ const Sidebar = () => {
             <aside className="sidebar">
                 <h2>Mi Portfolio</h2>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/skills">Skills</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/about">Sobre mi</NavLink>
+                <NavLink to="/skills">Habilidades</NavLink>
+                <NavLink to="/projects">Projectos</NavLink>
+                <NavLink to="/education">Educacion</NavLink>
+                <NavLink to="/contact">Contacto</NavLink>
             </aside>
         </div>
     )
