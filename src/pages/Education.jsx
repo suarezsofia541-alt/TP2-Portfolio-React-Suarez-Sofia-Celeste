@@ -2,6 +2,7 @@ import IPRimg from '../assets/imgeducation/IPRimg.jpg'
 import aticanaimg from '../assets/imgeducation/aticanaimg.jpg'
 import UTNimg from '../assets/imgeducation/UTNimg.png'
 import EducationCard from "../components/EducationCard"
+import '../css/education.css'
 
 const Education = () => {
 const Instituciones = [
@@ -11,11 +12,13 @@ const Instituciones = [
     ];
 
     return(
-        <div>
-            <h2>Educacion</h2>
+        <div className="containerEducation">
             <div>
+              <h2>Educacion</h2>  
+            </div>
+            <div className="educationList">
                 {Instituciones.map((institucion) => (
-                    <div key={institucion.id}>
+                    <div key={institucion.id} className="educationSpace">
                         <EducationCard nombre={institucion.nombre} nivel={institucion.nivel} estado={institucion.estado} img={institucion.img}/>
                     </div>
                 ))}  

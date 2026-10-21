@@ -1,0 +1,42 @@
+.containerEducation {
+    margin: 10px;
+    text-align: center;
+}
+
+.containerEducation H2 {
+    font-size: xx-large;
+    background-color: rgb(216, 232, 246);
+    border-radius: 50px;
+    padding: 30px;
+}
+.educationList {
+    justify-content: center;
+    gap: 30px;
+    font-size: x-large;
+    background-color: rgb(216, 232, 246);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.educationSpace {
+    margin: 30px;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.education img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 40px;
+}
+
+.institucioninfo {
+    width: 400px;
+    height: 200px;
+}
