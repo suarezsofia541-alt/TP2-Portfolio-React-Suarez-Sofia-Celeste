@@ -6,7 +6,7 @@ const Home = () => {
     return(
         <div className="containerHome">
              <div className="infoHome">
-                <h6>Sofia Celeste Suarez</h6>
+                <h2>Sofia Celeste Suarez</h2>
                 <h6>Estudiante de Programación. </h6>
                 <h6>Me interesa el desarrollo web y aprender nuevas tecnologías.</h6> 
             </div>

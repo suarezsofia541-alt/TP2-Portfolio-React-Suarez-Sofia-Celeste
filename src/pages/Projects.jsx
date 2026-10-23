@@ -2,6 +2,7 @@ import turnofacil from '../assets/imgprojects/turnofacil.jpeg'
 import shopnow from '../assets/imgprojects/shopnow.jpeg'
 import taskmanager from '../assets/imgprojects/taskmanager.jpeg'
 import ProjectCard from '../components/ProjectCard'
+import '../css/projects.css'
 
 const Projects = () => {
     const proyectos = [
@@ -10,11 +11,11 @@ const Projects = () => {
         {id:3, nombre:"TaskManager", descripcion:"Aplicación web para organizar tareas. Permite agregar, editar, eliminar y marcar tareas como completadas.", tecnologias:"C#, HTML, CSS, JavaScript, MySQL.", img:taskmanager}
     ]
     return(
-        <div>
+        <div className="containerProject">
             <h2>Proyectos</h2>
-            <div>
+            <div className="projectList">
                {proyectos.map((proyecto) => (
-                    <div key={proyecto.id}>
+                    <div key={proyecto.id} className="projectSpace">
                         <ProjectCard nombre={proyecto.nombre} descripcion={proyecto.descripcion} tecnologias={proyecto.tecnologias} img={proyecto.img}/>
                     </div>
                 ))} 
