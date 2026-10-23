@@ -1,16 +1,49 @@
-# React + Vite
+# Mi Portfolio Personal - TP2 React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nombre y apellido:** Suarez Sofia Celeste
+**Comisión:** 7
 
-Currently, two official plugins are available:
+## Descripción 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto consiste en el desarrollo de un portfolio personal utilizando React con el objetivo es presentar mi perfil, formación, habilidades tecnológicas, proyectos, educacion recibida y medios de contacto mediante una interfaz organizada y fácil de navegar, esta aplicación cuenta con un menú lateral que permite acceder a las distintas secciones sin recargar completamente la página.
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**React:** desarrollo de interfaces mediante componentes.
+**Vite:** creación y ejecución del proyecto.
+**JavaScript:** lógica de la aplicación.
+**JSX:** construcción de las interfaces.
+**CSS:** estilos y diseño responsive.
+**React Router DOM:** navegación entre páginas.
+**Git y GitHub:** control de versiones y almacenamiento del código.
 
-## Expanding the ESLint configuration
+## Páginas del portfolio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Home:** presentación personal.
+**Sobre mí:** información personal e intereses.
+**Habilidades:** tecnologías y herramientas que conozco.
+**Proyectos:** presentación de proyectos realizados.
+**Educacion:** instituciones educativas donde estudié y donde estudio actualmente.
+**Contacto:** gmail y enlace para contactarme.
+
+## Instalación y ejecución
+
+Para ejecutar el proyecto localmente: 
+
+1. Clonar el repositorio:
+    git clone https://github.com/suarezsofia541-alt/TP2-Portfolio-React-Suarez-Sofia-Celeste.git
+
+2. Ingresar a la carpeta del proyecto:
+    cd TP2-Portfolio-React-Suarez-Sofia-Celeste
+
+3. Instalar las dependencias:
+    npm install
+
+4. Ejecutar la aplicación:
+    npm run dev
+
+5. Abrir en el navegador la dirección local que muestra la terminal.
+
+## Repositorio
+URL del repositorio: 
+https://github.com/suarezsofia541-alt/TP2-Portfolio-React-Suarez-Sofia-Celeste
