@@ -1,11 +1,14 @@
 const SkillCard = ({nombre, img}) => {
 
     return(
-        <div>
-            <div>
+        <div className="skills">
+            <div className="skillsinfo">
                 <h4>{nombre}</h4>
-                <img src={img} alt={nombre}/>
             </div>
+            <div className="skillsImgContainer">
+               <img src={img} alt={nombre}/> 
+            </div>
+            
         </div>
     )
 }

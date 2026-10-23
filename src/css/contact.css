@@ -4,7 +4,8 @@
 }
 
 .contact {
-    background-color: rgb(216, 232, 246);
+    color:white;
+    background-color: #031528;
     font-size: x-large;
     border-radius: 20px;
     padding: 50px;
@@ -12,8 +13,9 @@
 }
 
 .containerContact H2 {
+    color:white;
     font-size: xx-large;
-    background-color: rgb(216, 232, 246);
+    background-color: #031528;
     border-radius: 50px;
     padding: 30px;
 }

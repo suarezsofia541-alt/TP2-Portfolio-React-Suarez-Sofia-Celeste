@@ -4,8 +4,8 @@ import mysql from '../assets/icons/mysql.svg'
 import react from '../assets/icons/react.svg'
 import html from '../assets/icons/html.svg'
 import css from '../assets/icons/css.svg'
-
 import SkillCard from '../components/SkillCard'
+import '../css/skills.css'
 
 const Skills = () => {
     const habilidades = [
@@ -17,11 +17,11 @@ const Skills = () => {
         { id: 6, nombre: "CSS", img:css }
     ];
     return(
-        <div>
+        <div className="containerSkills">
             <h2>Habilidades</h2>
-            <div>
+            <div className="skillsList">
                 {habilidades.map((habilidad) => (
-                    <div key={habilidad.id}>
+                    <div key={habilidad.id} className="skillsSpace">
                         <SkillCard nombre={habilidad.nombre} img={habilidad.img}/>
                     </div>
                 ))}  

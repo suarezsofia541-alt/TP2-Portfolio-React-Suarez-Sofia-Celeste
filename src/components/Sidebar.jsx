@@ -9,7 +9,7 @@ const Sidebar = () => {
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">Sobre mi</NavLink>
                 <NavLink to="/skills">Habilidades</NavLink>
-                <NavLink to="/projects">Projectos</NavLink>
+                <NavLink to="/projects">Proyectos</NavLink>
                 <NavLink to="/education">Educacion</NavLink>
                 <NavLink to="/contact">Contacto</NavLink>
             </aside>
