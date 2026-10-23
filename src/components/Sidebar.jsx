@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
+import Header from './Header'
 
 const Sidebar = () => {
 
     return(
         <div>
             <aside className="sidebar">
-                <h2>Mi Portfolio</h2>
+                <Header/>
                 <nav>
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/about">Sobre mi</NavLink>

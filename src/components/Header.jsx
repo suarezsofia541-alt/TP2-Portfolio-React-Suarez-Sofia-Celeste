@@ -1,8 +1,10 @@
+import '../css/header.css'
 const Header = () => {
 
     return(
-        <div>
-            <p>header del sidebar</p>
+        <div className='header'>
+            <h2>Mi Portfolio</h2>
+            <h6>Suarez Sofia Celeste </h6>
         </div>
     )
 }

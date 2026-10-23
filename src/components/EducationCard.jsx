@@ -1,4 +1,4 @@
-const EducationCard = ({id,nombre,nivel,estado,img}) => {
+const EducationCard = ({nombre,nivel,estado,img}) => {
     return(
         <div className="education">
             <div className="institucioninfo">

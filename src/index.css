@@ -44,10 +44,6 @@ body,
   font-weight: bold;
 }
 
-.sidebar H2 {
-  color: white;
-}
-
 .contenido {
   background-color: white;
   flex: 1;
