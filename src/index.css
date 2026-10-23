@@ -25,9 +25,13 @@ body,
   padding: 20px;
   background-color: #031528;
   overflow-y: auto;
+}
+
+.sidebar nav {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
+  font-size: larger;
 }
 
 .sidebar a {
@@ -46,7 +50,6 @@ body,
 
 .contenido {
   background-color: white;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   flex: 1;
   min-width: 0;
   height: 100%;
